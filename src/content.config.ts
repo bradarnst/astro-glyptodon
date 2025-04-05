@@ -38,4 +38,17 @@ const finds = defineCollection({
   }),
 });
 
-export const collections = { posts, finds };
+const cvs = defineCollection({
+  loader: glob({ pattern: "*.md", base: "./src/content/cvs" }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    description: z.string(),
+    publicationDate: z.coerce.date(),
+    editDate: z.coerce.date().optional(),
+    language: z.string(),
+    public: z.boolean().default(true),
+  }),
+});
+
+export const collections = { posts, finds, cvs };

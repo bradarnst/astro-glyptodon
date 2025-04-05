@@ -24,11 +24,8 @@
   --color-link-bg: #475f64;
 
   /* Generated at https://colorffy.com/mesh-gradient-generator?colors=001217-002027-002E36-003C45-004954 */
-  --background-gradient: radial-gradient(
-      at 51% 61%,
-      #001217 0px,
-      transparent 50%
-    ),
+  --background-gradient:
+    radial-gradient(at 51% 61%, #001217 0px, transparent 50%),
     radial-gradient(at 23% 11%, #002027 0px, transparent 50%),
     radial-gradient(at 77% 9%, #002e36 0px, transparent 50%),
     radial-gradient(at 42% 2%, #003c45 0px, transparent 50%),
@@ -38,38 +35,49 @@
 @media (prefers-color-scheme: light) {
   :root {
     /* https://colorffy.com/color-scheme-generator */
-    --color-background: #d5e6f0;
-    --color-text-base: #4f5559;
-    --color-text-muted: #5c6359;
-    --color-accent: #ff1493;
-    --color-card: #9ab3c1;
-    --color-card-muted: #aec2cd;
-    --color-border: #4f5559;
+    /* --color-background: #f3f7e3; */
+    /* --color-text-base: #1f0f27; */
+    /* --color-text-muted: #4f136d; */
+    /* --color-accent: #97bd00; */
+    /* --color-card: var(--color-background); */
+    /* --color-card-muted: #aec2cd; */
+    /* --color-border: #4f5559; */
+    --color-background: #f5f5f5;
+    --color-text-base: #20122d;
+    --color-text-muted: #391a55;
+    --color-accent: #e31e26;
+    --color-card: var(--color-background);
+    --color-card-muted: #ead5fb;
+    --color-border: #802be2;
 
-    --color-button-border: #968f95;
+    /* --color-button-border: #968f95; */
 
-    --color-button-primary: #a601fe;
-    --color-button-primary-hover: #d68cff;
-    --color-button-border: #6f6f6e;
+    --color-button-primary: #802be2;
+    --color-button-primary-hover: #bb84f0;
+    --color-button-border: #4e2082;
 
     --color-list-video: #c12b05;
     --color-list-article: #f47d3c;
     --color-list-website: #a601fe;
     --color-list-book: #58aa9c;
 
-    --color-link: #b26acd;
-    --color-link-bg: #e0ecf4;
+    --color-link: #6726b1;
+    --color-link-bg: #f0e1fc;
 
     /* Generated at https://colorffy.com/mesh-gradient-generator?colors=001217-002027-002E36-003C45-004954 */
-    --background-gradient: radial-gradient(
-        at 51% 61%,
-        #d2e3f0 0px,
-        transparent 50%
-      ),
-      radial-gradient(at 23% 11%, #c1d9e9 0px, transparent 50%),
-      radial-gradient(at 77% 9%, #aed0e2 0px, transparent 50%),
-      radial-gradient(at 42% 2%, #9ab7d9 0px, transparent 50%),
-      radial-gradient(at 35% 98%, #889eb7 0px, transparent 50%) #e5eff6;
+
+    --background-gradient: linear-gradient(
+        180deg,
+        #ffffff,
+        #f5f5f5 90%,
+        #bfbfbf 100%
+      )
+      /* --background-gradient: */
+      /*   radial-gradient(at 51% 61%, #d2e3f0 0px, transparent 50%), */
+      /*   radial-gradient(at 23% 11%, #c1d9e9 0px, transparent 50%), */
+      /*   radial-gradient(at 77% 9%, #aed0e2 0px, transparent 50%), */
+      /*   radial-gradient(at 42% 2%, #9ab7d9 0px, transparent 50%), */
+      /*   radial-gradient(at 35% 98%, #889eb7 0px, transparent 50%) #e5eff6; */;
   }
 }
 
@@ -183,7 +191,7 @@ main img {
 h1,
 h2,
 h3 {
-  font-family: "Solway", Georgia, "Times New Roman", Times, serif;
+  font-family: "Arhivo Variable", sans-serif;
   font-weight: 700;
   margin: 0;
   line-height: 1.1;

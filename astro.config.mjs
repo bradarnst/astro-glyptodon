@@ -23,6 +23,9 @@ export default defineConfig({
       finds: {
         schema: "src/content/config.ts#finds",
       },
+      cvs: {
+        schema: "src/content/config.ts#cvs",
+      },
     },
   },
 });

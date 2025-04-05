@@ -1,0 +1,76 @@
+--clr-primary-a0: #ffffff;
+--clr-primary-a10: #ead2f3;
+--clr-primary-a20: #d3a5e6;
+--clr-primary-a30: #bb79d9;
+--clr-primary-a40: #a14acb;
+--clr-primary-a50: #8400bd;
+--clr-primary-a60: #690f94;
+--clr-primary-a70: #4f136d;
+--clr-primary-a80: #371349;
+--clr-primary-a90: #1f0f27;
+--clr-primary-a100: #000000;
+
+ /** Examples */ 
+.bg-primary {
+ color: var(--clr-primary-a50); 
+ background-color: var(--clr-primary-a10); 
+}
+
+/** complementary */
+--clr-primary-a0: #ffffff;
+--clr-primary-a10: #ddf3d2;
+--clr-primary-a20: #bbe6a7;
+--clr-primary-a30: #96d97b;
+--clr-primary-a40: #6ecb4c;
+--clr-primary-a50: #39bd00;
+--clr-primary-a60: #339410;
+--clr-primary-a70: #2b6d14;
+--clr-primary-a80: #214913;
+--clr-primary-a90: #16270f;
+--clr-primary-a100: #000000;
+
+ /** Examples */ 
+.bg-primary {
+ color: var(--clr-primary-a50); 
+ background-color: var(--clr-primary-a10); 
+}
+
+/** split complementary 1 */
+--clr-primary-a0: #ffffff;
+--clr-primary-a10: #ecf2d3;
+--clr-primary-a20: #d9e4a8;
+--clr-primary-a30: #c4d77c;
+--clr-primary-a40: #aeca4e;
+--clr-primary-a50: #97bd00;
+--clr-primary-a60: #779411;
+--clr-primary-a70: #596d15;
+--clr-primary-a80: #3c4814;
+--clr-primary-a90: #22260f;
+--clr-primary-a100: #000000;
+
+ /** Examples */ 
+.bg-primary {
+ color: var(--clr-primary-a50); 
+ background-color: var(--clr-primary-a10); 
+}
+
+/** split complementary 2 */
+--clr-primary-a0: #ffffff;
+--clr-primary-a10: #daf3d5;
+--clr-primary-a20: #b4e6ac;
+--clr-primary-a30: #8cd982;
+--clr-primary-a40: #5ecb58;
+--clr-primary-a50: #00bd26;
+--clr-primary-a60: #189423;
+--clr-primary-a70: #1c6d1e;
+--clr-primary-a80: #1a4919;
+--clr-primary-a90: #132711;
+--clr-primary-a100: #000000;
+
+ /** Examples */ 
+.bg-primary {
+ color: var(--clr-primary-a50); 
+ background-color: var(--clr-primary-a10); 
+}
+
+

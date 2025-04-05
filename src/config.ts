@@ -1,16 +1,16 @@
 export const PATHS = {
   home: "/",
   about: "/about",
-  resume: "/resume",
+  cvs: "/cvs",
   posts: "/posts",
   finds: "/finds",
   error404: "/404",
 } as const;
 
 export const CONFIG = {
-  site_title: "Jane Doe | Graphic Designer",
-  site_url: "https://www.yoursite.dev",
-  author: "Jane Doe",
-  email: "your@email.com",
-  description: "Welcome to my blog!",
+  site_title: "Brad Arnst | IT Architect",
+  site_url: "https://brad.nexusseven.com",
+  author: "Brad Arnst",
+  email: "brad@nexusseven.com",
+  description: "Brad Arnst: IT Architect!",
 } as const;

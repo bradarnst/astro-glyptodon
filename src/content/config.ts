@@ -26,3 +26,16 @@ export const finds = defineCollection({
     public: z.boolean().default(true),
   }),
 });
+
+export const cvs = defineCollection({
+  type: "content",
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    description: z.string(),
+    publicationDate: z.coerce.date(),
+    editDate: z.coerce.date().optional(),
+    language: z.string(),
+    public: z.boolean().default(true),
+  }),
+});
