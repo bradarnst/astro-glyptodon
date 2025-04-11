@@ -8,16 +8,6 @@ language: "en"
 public: true
 ---
 
-# Brad Arnst
-
-**Senior IT Architect | Enterprise & Solutions Architecture | Digital Transformation**
-
-Email: [brad@nexusseven.com](mailto:brad@nexusseven.com) | Phone: [+33 6 17 71 48 23](tel:+33617714823)
-<br>
-[LinkedIn](https://www.linkedin.com/in/bradarnst) | [Online Full CV](https://cv.nexusseven.com)
-
----
-
 ## Professional Summary
 
 Strategic and hands-on IT Architect with expertise in enterprise architecture, solutions architecture, and digital transformation. Deep experience in global integrations and transformations. Adept at leading architecture strategy, system integration, digital transformation, devops initiatives and cloud modernization. Proven success in large-scale transformations. A wealth of experience in API strategy, API-driven architectures and microservices. Strong ability to collaborate across engineering, business, and executive teams to align technology with business goals. Experience working across startups, enterprises, and global organizations. Industries include: banking, finance, retail, energy, oil & gas, logistics, auto, technology.
@@ -74,9 +64,9 @@ Strategic and hands-on IT Architect with expertise in enterprise architecture, s
 
 ## Professional Experience
 
-### Recent Career Break – (June 2024 - April 2025)
+### Recent Career Break – (May 2024 - Feb 2025)
 
-Took time off to renovate and sell my house in the UK, finalizing my permanent move to France. Since January 2024, I have been actively seeking new opportunities aligned with my expertise in IT architecture.
+Took time off to renovate and sell my house in the UK, finalizing my permanent move to France. Since November 2024, I have been actively seeking new opportunities aligned with my expertise in IT architecture.
 
 ### Senior Solutions Architect – Euroclear, France (Nov 2023 - May 2024)
 

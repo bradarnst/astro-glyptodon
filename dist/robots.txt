@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://brad.nexusseven.com/sitemap-index.xml
