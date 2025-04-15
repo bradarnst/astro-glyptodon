@@ -26,9 +26,9 @@
   /* Generated at https://colorffy.com/mesh-gradient-generator?colors=001217-002027-002E36-003C45-004954 */
   --background-gradient: linear-gradient(
     180deg,
-    #000000,
+    #171717,
     #313131 90%,
-    #494949 100%
+    #616161 100%
   );
 }
 
@@ -195,6 +195,7 @@ h3 {
   margin: 0;
   line-height: 1.1;
   letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 
 h1 {
@@ -226,7 +227,8 @@ main > hr {
 main p {
   margin-top: 0;
   margin-bottom: var(--gap);
-  line-height: 1.6;
+  line-height: 1.4;
+  text-wrap: pretty;
 }
 
 main code {
@@ -238,12 +240,12 @@ main code {
 
 main blockquote {
   font-size: var(--step-0);
-  line-height: 1.5;
+  line-height: 1.4;
   font-style: italic;
 }
 
 .page-content {
-  max-width: 78ch;
+  max-width: 70ch;
   margin: 0 auto;
   padding: var(--gap);
 }
@@ -266,7 +268,7 @@ main blockquote {
 
 .page-content p {
   margin-bottom: 1.5em;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .page-content ul,
@@ -276,7 +278,7 @@ main blockquote {
 }
 
 .page-content li {
-  line-height: 1.6;
+  line-height: 1.4;
   margin-bottom: calc(var(--gap) / 4);
 }
 

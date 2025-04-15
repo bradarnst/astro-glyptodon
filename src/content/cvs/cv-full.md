@@ -1,11 +1,21 @@
 ---
-title: "Brad Arnst Full CV"
+title: "Brad Arnst CV"
 slug: "cv-full"
 description: "Bradley Arnst - English Full-Length CV"
 publicationDate: 2025-04-03
 editDate: 2025-04-03
 language: "en"
 public: true
+---
+
+# Brad Arnst
+
+**Senior IT Architect | Enterprise & Solutions Architecture | Digital Transformation**
+
+Email: [brad@nexusseven.com](mailto:brad@nexusseven.com) | Phone: [+33 6 17 71 48 23](tel:+33617714823)
+<br>
+[LinkedIn](https://www.linkedin.com/in/bradarnst) | [Online Full CV](https://cv.nexusseven.com)
+
 ---
 
 ## Professional Summary
