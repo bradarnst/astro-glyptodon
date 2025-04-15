@@ -3,13 +3,13 @@ import Layout from '../layouts/Layout.astro';
 import { CONFIG } from '../config';
 import { getCollection } from 'astro:content';
 import LinkCard from '../components/LinkCard.astro';
-import PostCard from '../components/PostCard.astro';
+// import PostCard from '../components/PostCard.astro';
 
-const posts = (await getCollection('posts', ({ data }) => {
-    return data.public !== false;
-}))
-    .sort((a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf())
-    .slice(0,5);
+// const posts = (await getCollection('posts', ({ data }) => {
+//     return data.public !== false;
+// }))
+//     .sort((a, b) => b.data.publicationDate.valueOf() - a.data.publicationDate.valueOf())
+//     .slice(0,5);
 
 const finds = (await getCollection('finds', ({ data }) => {
     return data.public !== false;
@@ -20,6 +20,7 @@ const finds = (await getCollection('finds', ({ data }) => {
 
 <Layout title="Home">
  	<section id="hero">
+    
       <div id="hero-title">
       <img src="/brad-avatar1.png" alt="Brad avatar" width="128" height="128" />
         <div style="font-weight: 500;">
@@ -69,23 +70,23 @@ Strategic and hands-on IT Architect with expertise in enterprise architecture, s
 
 	<hr />
 
-  <section id="recent-posts" class="posts-section">
-    <h2 class="font-heading">Latest Posts</h2>
-    <div class="posts-grid">
-        {posts.map(post => (
-            <PostCard
-                title={post.data.title}
-                description={post.data.description}
-                publicationDate={post.data.publicationDate}
-                category={post.data.category}
-                slug={post.data.slug}
-            />
-        ))}
-        <div style="display: flex; align-items: center; justify-content: center;">
-          <a href="/posts" class="button-primary">View all posts →</a>
-        </div>
-    </div>
-  </section>
+  <!-- <section id="recent-posts" class="posts-section"> -->
+  <!--   <h2 class="font-heading">Latest Posts</h2> -->
+  <!--   <div class="posts-grid"> -->
+  <!--       {posts.map(post => ( -->
+  <!--           <PostCard -->
+  <!--               title={post.data.title} -->
+  <!--               description={post.data.description} -->
+  <!--               publicationDate={post.data.publicationDate} -->
+  <!--               category={post.data.category} -->
+  <!--               slug={post.data.slug} -->
+  <!--           /> -->
+  <!--       ))} -->
+  <!--       <div style="display: flex; align-items: center; justify-content: center;"> -->
+  <!--         <a href="/posts" class="button-primary">View all posts →</a> -->
+  <!--       </div> -->
+  <!--   </div> -->
+  <!-- </section> -->
 
   <section id="finds">
     <h2 class="font-heading">Interesting Finds...</h2>
@@ -142,10 +143,13 @@ Strategic and hands-on IT Architect with expertise in enterprise architecture, s
       padding-top: 2rem; 
     }
   
-    #hero .subtitle {
-      margin: 0.5rem; 
+    #hero #subtitle {
+      font-family: "Archivo Variable", sans-serif;
+      font-weight: 500;
+      /* letter-spacing: -0.01em; */
+      /* margin: 0.5rem;  */
       font-size: var(--step-1);
-      line-height: 1.25rem; 
+      /* line-height: 1.25rem;  */
     }
     #hero-title {
       display: flex; 

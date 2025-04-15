@@ -2,7 +2,7 @@ export const PATHS = {
   home: "/",
   about: "/about",
   cvs: "/cvs",
-  posts: "/posts",
+  // posts: "/posts",
   finds: "/finds",
   error404: "/404",
 } as const;

@@ -18,18 +18,17 @@ const { Content } = await render(cv);
 
 ---
 
-<Layout title={cv.data.title} description={cv.data.description}>
+<!-- <Layout title={cv.data.title} description={cv.data.description}> -->
+<Layout>
   <Breadcrumbs path={['cvs', cv.data.title]} />
   <article class="page-content">
     <header class="post-header">
-      <h1>{cv.data.title}</h1>
-      <hr/>
-      <div class="post-meta">
-        <div class="description">{cv.data.description}</div>
-      </div>
-    </header>
-    
-    
+  <!--     <h1>{cv.data.title}</h1> -->
+  <hr/>
+  <!--     <div class="post-meta"> -->
+  <!--       <div class="description">{cv.data.description}</div> -->
+  <!--     </div> -->
+  </header>
     <Content />
   </article>
 </Layout>

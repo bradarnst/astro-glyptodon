@@ -67,19 +67,21 @@
     /* Generated at https://colorffy.com/mesh-gradient-generator?colors=001217-002027-002E36-003C45-004954 */
 
     --background-gradient: linear-gradient(
-        180deg,
-        #ffffff,
-        #f5f5f5 90%,
-        #bfbfbf 100%
-      )
-      /* --background-gradient: */
-      /*   radial-gradient(at 51% 61%, #d2e3f0 0px, transparent 50%), */
-      /*   radial-gradient(at 23% 11%, #c1d9e9 0px, transparent 50%), */
-      /*   radial-gradient(at 77% 9%, #aed0e2 0px, transparent 50%), */
-      /*   radial-gradient(at 42% 2%, #9ab7d9 0px, transparent 50%), */
-      /*   radial-gradient(at 35% 98%, #889eb7 0px, transparent 50%) #e5eff6; */;
+      180deg,
+      #ffffff,
+      #f5f5f5 90%,
+      #bfbfbf 100%
+    );
+    /* --background-gradient: */
+    /*   radial-gradient(at 51% 61%, #d2e3f0 0px, transparent 50%), */
+    /*   radial-gradient(at 23% 11%, #c1d9e9 0px, transparent 50%), */
+    /*   radial-gradient(at 77% 9%, #aed0e2 0px, transparent 50%), */
+    /*   radial-gradient(at 42% 2%, #9ab7d9 0px, transparent 50%), */
+    /*   radial-gradient(at 35% 98%, #889eb7 0px, transparent 50%) #e5eff6; */
   }
 }
+
+/* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
 body {
   margin: 0;
@@ -93,9 +95,6 @@ body {
     background-color 0.3s,
     color 0.3s;
 }
-
-/* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-
 :root {
   --step--2: clamp(0.7813rem, 0.7747rem + 0.0326vw, 0.8rem);
   --step--1: clamp(0.9375rem, 0.9158rem + 0.1087vw, 1rem);
@@ -191,11 +190,11 @@ main img {
 h1,
 h2,
 h3 {
-  font-family: "Arhivo Variable", sans-serif;
+  font-family: "Archivo Variable", sans-serif;
   font-weight: 700;
   margin: 0;
   line-height: 1.1;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.02em;
 }
 
 h1 {

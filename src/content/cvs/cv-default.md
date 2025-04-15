@@ -1,5 +1,5 @@
 ---
-title: "Brad Arnst Default CV"
+title: "Brad Arnst CV"
 slug: "cv-default"
 description: "Bradley Arnst - English Default CV"
 publicationDate: 2025-04-03
@@ -76,7 +76,7 @@ Strategic and hands-on IT Architect with expertise in enterprise architecture, s
 
 ### Recent Career Break – (June 2024 - April 2025)
 
-Took time off to renovate and sell my house in the UK, finalizing my permanent move to France. Since January 2024, I have been actively seeking new opportunities aligned with my expertise in IT architecture.
+Took time off to renovate and sell my house in the UK, finalizing my permanent move to France. Since January 2025, I have been actively seeking new opportunities aligned with my expertise in IT architecture.
 
 ### Senior Solutions Architect – Euroclear, France (Nov 2023 - May 2024)
 
